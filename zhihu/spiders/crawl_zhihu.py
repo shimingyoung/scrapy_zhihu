@@ -185,8 +185,8 @@ class ZhihuSpider(scrapy.Spider):
                 'User-agent': agent,
                 }
         session = requests.session()
-        account = 'chuanese@gmail.com' 
-        password = 'zhihu123456789'
+        account = '' 
+        password = ''
         post_url = 'https://www.zhihu.com/login/email'
         post_data = {
                 'captcha_type': 'cn',
